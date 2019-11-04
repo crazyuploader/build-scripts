@@ -7,4 +7,5 @@ echo ""
 echo "Compiling with Clang++"
 for f in $(ls *.cpp); do echo "Compiling with clang++ $f"; clang++ $f; done
 for f in $(ls Practical_File/*.cpp); do echo "Compiling with clang++ $f"; clang++ $f; done
+echo ""
 echo "Build with Clang++ OK"
